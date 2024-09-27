@@ -1,0 +1,21 @@
+remove duplicates from array
+
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        
+        int j;
+        int k=1;
+        for ( j=1;j<nums.size();j++)
+        {
+            if(nums[(j)]!=nums[(j-1)])
+            {
+                nums[(k)]=nums[(i)];
+                k++
+            }
+        }
+        
+        return k;
+        
+    }
+};
